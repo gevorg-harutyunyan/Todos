@@ -26,7 +26,7 @@ function App() {
     setTodos(todos => todos.filter(todo => todo.id !== id))
   }, [])
 
-////////
+
   return (
     <div className="App">
 
