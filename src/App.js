@@ -20,7 +20,7 @@ function App() {
     }
     )
   }, [])
-
+///////////////////
 
   const removeTodo = useCallback((id) => {
     setTodos(todos => todos.filter(todo => todo.id !== id))
