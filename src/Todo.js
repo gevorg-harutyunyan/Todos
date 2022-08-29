@@ -1,5 +1,5 @@
 import { memo } from "react"
-//
+
 
 const Todo = memo(({ todo, setTodo, removeTodo }) => {
     return (
