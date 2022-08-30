@@ -1,9 +1,8 @@
-import { useState, useCallback } from 'react';
-import './App.css';
-import { Todo } from './Todo';
+import { useState, useCallback } from 'react'
+import './App.css'
+import { Todo } from './Todo'
 
 function App() {
-
   const [todos, setTodos] = useState([])
 
   const changeTodo = useCallback((newValue, id) => {
@@ -51,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
